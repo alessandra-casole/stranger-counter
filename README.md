@@ -40,7 +40,7 @@ Users should be able to: increase and decrease the value of the counter by playi
 
 ### Links
 
-- Solution URL: https://github.com/alessandra-casole/stranger-counter.git
+- Solution URL: https://github.com/alessandra-casole/stranger-counter
 - Live Site URL: https://
 
 ## My process

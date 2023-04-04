@@ -5,14 +5,14 @@ const counterApp = document.querySelector(".counter");
 const appImg = document.querySelector(".app-img img");
 
 const imgsArray = [
-   "./assets/img/c-letter.png",
-   "./assets/img/o-letter.png",
-   "./assets/img/u-letter.png",
-   "./assets/img/n-letter.png",
-   "./assets/img/t-letter.png",
-   "./assets/img/e-letter.png",
-   "./assets/img/r-letter.png",
-   "./assets/img/counter.png",
+   "./assets/img/c-letter.jpeg",
+   "./assets/img/o-letter.jpeg",
+   "./assets/img/u-letter.jpeg",
+   "./assets/img/n-letter.jpeg",
+   "./assets/img/t-letter.jpeg",
+   "./assets/img/e-letter.jpeg",
+   "./assets/img/r-letter.jpeg",
+   "./assets/img/counter.jpeg",
 ];
 
 const count = document.querySelector(".count");

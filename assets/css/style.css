@@ -1,0 +1,157 @@
+/* Open Sans + Press Start 2P */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+/* General rules */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #ccc9dc;
+    background-image: url(../img/upside-down.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    touch-action: manipulation;   
+}
+
+.open-app {
+    border: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #ccc9dc;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    cursor: pointer;
+    text-shadow: 0px 2px 5px #000000;
+    animation: blink 1.3s step-start infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.counter {
+    background-color: #000000;
+    box-shadow: -4px 20px 50px #000000;
+    max-width: 370px;
+    border: 1px solid #121212;
+    border-radius: .9375rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    padding: 0 .9375rem 1.4rem .9375rem;
+    text-align: center;
+}
+
+.app-title img {
+    margin-top: .25rem;
+}
+
+.count,
+.reset {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8125rem;
+}
+
+.count {
+    padding: 1.6875rem 0 .4375rem 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Buttons */
+.minus,
+.plus {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.1rem;
+    color: #ccc9dc;
+    text-shadow: 0px 2px 5px #000000;
+    background: linear-gradient(-45deg, #0a0a0a,#242424);
+    width: 42px;
+    height: 42px;
+    margin: 0 .8rem;
+    box-shadow: -3px -1px 8px 0 #101010;
+    border: none;
+    border-radius: 100%;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.minus:hover,
+.plus:hover {
+    transform: scale(.96);
+}
+
+.line {
+    width: 8.5%;
+    height: 6px;
+    margin: .9375rem auto 0 auto;
+    background: linear-gradient(1deg, #0a0a0a,#242424);
+    box-shadow: 0 0 3px 0 #242424;
+    border-radius: 1.25rem;
+}
+
+.reset {
+    color: #ccc9dc;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin-bottom: .625rem;
+    margin-bottom: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    font-size: .6875rem;
+    padding-top: .8125rem;
+    padding-top: 1rem;
+    border-top: 1px solid #121212;    
+}
+
+.footer a {
+    color: #eb111d;
+    text-decoration-color: #ff1515;
+}
+
+/* Media Query 1200px */
+
+@media (min-width: 1200px) {
+
+    body {
+        background-position: initial;
+    }
+
+    .open-app {
+        font-size: 1.27rem;
+    }
+
+    .counter {
+        max-width: 400px;
+    }
+
+    .plus,
+    .minus {
+        font-size: 1.0625rem;
+        width: 47px;
+        height: 47px; 
+    }
+}

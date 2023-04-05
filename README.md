@@ -34,7 +34,7 @@
 This is the second project carried out during the start2impact University course in Front End Development. 
 
 
-It consists on creating a JavaScript application that works as a counter and to give the user a more original experience, I took inspiration from Stranger Things.
+It consists of creating a JavaScript application that works as a counter and to give the user a more original experience, I took inspiration from Stranger Things.
 
 Users should be able to: increase and decrease the value of the counter by playing with the lights of the Byers' house as if they were Will and resetting the counter hearing the verse of the Demogorgon, then ... you just have to try!
 

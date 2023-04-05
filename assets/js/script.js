@@ -40,7 +40,7 @@ function displayApp() {
    counterApp.classList.remove("hidden");
    document.body.style.background = "linear-gradient(to bottom, hsl(217deg 57% 6%), #350a09, hsl(217deg 57% 6%) )";
    const themeSound = new Audio("./assets/audio/theme.mp3");
-   themeSound.volume = 0.013;
+   themeSound.volume = 0.03;
    themeSound.play();
 }
 

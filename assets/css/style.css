@@ -49,7 +49,7 @@ body {
 .counter {
     background-color: #000000;
     box-shadow: -4px 20px 50px #000000;
-    max-width: 370px;
+    max-width: 400px;
     border: 1px solid #121212;
     border-radius: .9375rem;
 }
@@ -142,10 +142,6 @@ body {
 
     .open-app {
         font-size: 1.27rem;
-    }
-
-    .counter {
-        max-width: 400px;
     }
 
     .plus,

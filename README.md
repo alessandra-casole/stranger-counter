@@ -1,7 +1,7 @@
 <h3 align="center">Stranger Counter</h3>
 <p align="center">A simple counter application inspired by Stranger Things.
   <br>
-  <a href="https://github.com/othneildrew/Best-README-Template"><strong>View Demo »</strong></a>
+  <a href="https://stranger-counter.netlify.app/"><strong>View Demo »</strong></a>
 </p>
 
 <!-- TABLE OF CONTENTS -->

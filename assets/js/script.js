@@ -40,7 +40,7 @@ function displayApp() {
    counterApp.classList.remove("hidden");
    document.body.style.background = "linear-gradient(to bottom, hsl(217deg 57% 6%), #350a09, hsl(217deg 57% 6%) )";
    const themeSound = new Audio("./assets/audio/theme.mp3");
-   themeSound.volume = 0.03;
+   themeSound.volume = 0.02;
    themeSound.play();
 }
 
@@ -96,7 +96,7 @@ function reset() {
    countValue = 0;
    count.textContent = countValue;
    const resetSound = new Audio("./assets/audio/demogorgon.mp3");
-   resetSound.volume = 0.08;
+   resetSound.volume = 0.083;
    resetSound.play();
    appImg.src = "./assets/img/letters-wall.png";  
 }

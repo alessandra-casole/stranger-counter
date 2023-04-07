@@ -40,8 +40,8 @@ Users should be able to: increase and decrease the value of the counter by playi
 
 ### Links
 
-- Preview Site: stranger-counter.netlify.app/
-- View Code: github.com/alessandra-casole/stranger-counter
+- Preview Site: [stranger-counter.netlify.app](https://stranger-counter.netlify.app/)
+- View Code: [github.com/alessandra-casole/stranger-counter](https://github.com/alessandra-casole/stranger-counter)
 
 ## My process
 

@@ -50,6 +50,7 @@ body {
     100% { opacity: 1.0; }
 }
 
+/* Counter section */
 .counter {
     background-color: #000000;
     box-shadow: -4px 20px 50px #000000;
@@ -109,6 +110,7 @@ body {
     border-radius: 1.25rem;
 }
 
+/* Reset button */
 .reset {
     text-transform: uppercase;
     margin-bottom: 1.5rem;
@@ -137,9 +139,8 @@ body {
         font-size: 1.27rem;
     }
 
-    .plus,
-    .minus {
-        font-size: 1.0625rem;
+    .minus,
+    .plus {
         width: 47px;
         height: 47px; 
     }

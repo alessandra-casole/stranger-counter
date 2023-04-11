@@ -40,25 +40,22 @@ function setUpEvents() {
    // Reset button
    const resetBtn = document.querySelector(".reset");
 
-   // It opens the app when you click on the "openApp" button
-   function displayApp() {
-      openApp.classList.add("hidden");
-      counterApp.classList.remove("hidden");
-      document.body.style.background = "linear-gradient(to bottom, hsl(217deg    57% 6%), #350a09, hsl(217deg 57% 6%) )";
-      const themeSound = new Audio("./assets/audio/theme.mp3");
-      themeSound.volume = 0.023;
-      themeSound.play();
-   }
+   
+   // Open the app and Update the counter: 
+   document.body.addEventListener("click", (event) => {
 
-   openApp.addEventListener("click", () => {
-      displayApp();
-   });
+      if (event.target === openApp) {
+         openApp.classList.add("hidden");
+         counterApp.classList.remove("hidden");
+         document.body.style.background = "linear-gradient(to bottom, hsl(217deg    57% 6%), #350a09, hsl(217deg 57% 6%) )";
 
-   // Update Counter: 
-   counterApp.addEventListener("click", (event) => {
-
+         // Theme song in the background
+         const themeSound = new Audio("./assets/audio/theme.mp3");
+         themeSound.volume = 0.023;
+         themeSound.play();
+      
       // Increments the value
-      if (event.target === incrementBtn) {
+      } else if (event.target === incrementBtn) {
          countValue++;
          count.textContent = countValue;
 

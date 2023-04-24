@@ -56,5 +56,5 @@ Users should be able to: increase and decrease the value of the counter by playi
 
 ## Author
 
-- <a href="https://www.alessandracasole-dev.com">Alessandra Casole</a>
+- Website - <a href="https://www.alessandracasole-dev.com">Alessandra Casole</a>
 

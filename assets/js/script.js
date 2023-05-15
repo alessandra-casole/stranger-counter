@@ -5,14 +5,14 @@ function setUpEvents() {
    const appImg = document.querySelector(".app-img img");
 
    const imgsArray = [
-   "./assets/img/c-letter.jpeg",
-   "./assets/img/o-letter.jpeg",
-   "./assets/img/u-letter.jpeg",
-   "./assets/img/n-letter.jpeg",
-   "./assets/img/t-letter.jpeg",
-   "./assets/img/e-letter.jpeg",
-   "./assets/img/r-letter.jpeg",
-   "./assets/img/counter.jpeg",
+      "./assets/img/c-letter.jpeg",
+      "./assets/img/o-letter.jpeg",
+      "./assets/img/u-letter.jpeg",
+      "./assets/img/n-letter.jpeg",
+      "./assets/img/t-letter.jpeg",
+      "./assets/img/e-letter.jpeg",
+      "./assets/img/r-letter.jpeg",
+      "./assets/img/counter.jpeg"
    ];
 
    // Count value initially set to 0
